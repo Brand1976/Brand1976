@@ -1,0 +1,27 @@
+num = int(input('Введите арабское число: '))
+M = num//1000
+ost_M = num%1000
+CM = ost_M//900
+ost_CM = ost_M%900
+D = ost_CM//500
+ost_D = ost_CM%500
+CD = ost_D//400
+ost_CD = ost_D%400
+C = ost_CD//100
+ost_C = ost_CD%100
+XC = ost_C//90
+ost_XC = ost_C%90
+L = ost_XC//50
+ost_L = ost_XC%50
+XL = ost_L//40
+ost_XL = ost_L%40
+X = ost_XL//10
+ost_X = ost_XL%10
+IX = ost_X//9
+ost_IX = ost_X%9
+V = ost_IX//5
+ost_V = ost_IX%5
+IV = ost_V//4
+ost_IV = ost_V%4
+I = ost_IV//1
+print('Римское число: ' + 'M'*M + 'CM'*CM + 'D'*D + 'CD'*CD + 'C'*C + 'XC'*XC + 'L'*L + 'XL'*XL + 'X'*X + 'IX'*IX + 'V'*V + 'IV'*IV + 'I'*I)

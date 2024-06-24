@@ -34,6 +34,6 @@ def check_data(day, month, year):
 
 
 #date = input('Введите дату в формате ДД.ММ.ГГГГ: ')
-date = ('29.02.1900')
+date = ('29.02.2000')
 day, month, year = map(int, date.split('.'))
 print(check_data(day, month, year))

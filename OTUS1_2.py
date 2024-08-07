@@ -1,4 +1,4 @@
-days = int(input('Введите сколько дней осталось до отпуcка: '))
+days = int(input('Введите сколько дней осталось до отпучка: '))
 weeks = days//7
 plus_days = days - weeks*7
 #print(weeks)

@@ -1,4 +1,0 @@
-Запускае командную строку CMD
-d:
-cd D:\OTUS\Brand_public
-D:\OTUS\Brand_public\.venv\Scripts\jupyter-notebook
